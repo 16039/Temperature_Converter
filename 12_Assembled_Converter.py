@@ -126,6 +126,7 @@ class Converter:
             
             if answer != "Too Cold":
                 self.all_calc_list.append(answer)
+                self.history_button.config(state = NORMAL)
                 print(self.all_calc_list)
             
         except ValueError:
